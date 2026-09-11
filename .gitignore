@@ -1,2 +1,6 @@
 .DS_Store
 **/.vmark/
+**/bin/
+**/obj/
+TestResults/
+.vs/
