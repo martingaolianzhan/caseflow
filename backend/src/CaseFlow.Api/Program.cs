@@ -1,6 +1,9 @@
+using CaseFlow.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers(); // register Controller-based Api
+builder.Services.AddCaseFlowPersistence(builder.Configuration); // register CaseFlowDbContext and configure database connection
 builder.Services.AddOpenApi(); // register Open Api service
 
 var app = builder.Build(); // build web app
