@@ -1,6 +1,6 @@
 namespace CaseFlow.Application.Tests;
 
-public class UnitTest1
+public class BaselineTests
 {
     [Fact]
     public void Test_runner_is_available()
