@@ -98,15 +98,15 @@ At minimum:
 
 The exact matrix is intentionally not final yet.
 
-| Capability                 |     Customer User | Customer Manager |         Internal Service User |      Platform Admin |
-| -------------------------- | ----------------: | ---------------: | ----------------------------: | ------------------: |
-| Create Case                |               Yes |              Yes |             Context-dependent |  Admin/support only |
-| View permitted Case        |               Yes |              Yes |                           Yes | Explicitly governed |
-| View tenant Case queue     |           Limited |              Yes |             Context-dependent | Explicitly governed |
-| Assign Case                |                No |              Yes |                    Usually No | Explicitly governed |
-| Update Case progress       |           Limited |              Yes | Yes where assigned/authorised | Explicitly governed |
-| View SLA status            | Appropriate Cases |              Yes |             Appropriate Cases | Explicitly governed |
-| Tenant user administration |                No |      Context/TBD |                            No | Platform-level only |
+|         Capability         |   Customer User   | Customer Manager |     Internal Service User     | Platform Admin      |
+| :------------------------: | :---------------: | :--------------: | :---------------------------: | ------------------- |
+|        Create Case         |        Yes        |       Yes        |       Context-dependent       | Admin/support only  |
+|    View permitted Case     |        Yes        |       Yes        |              Yes              | Explicitly governed |
+|   View tenant Case queue   |      Limited      |       Yes        |       Context-dependent       | Explicitly governed |
+|        Assign Case         |        No         |       Yes        |          Usually No           | Explicitly governed |
+|    Update Case progress    |      Limited      |       Yes        | Yes where assigned/authorised | Explicitly governed |
+|      View SLA status       | Appropriate Cases |       Yes        |       Appropriate Cases       | Explicitly governed |
+| Tenant user administration |        No         |   Context/TBD    |              No               | Platform-level only |
 
 Any `TBD` or context-dependent cell must be resolved before implementing the relevant endpoint.
 
