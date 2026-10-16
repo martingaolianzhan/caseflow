@@ -66,6 +66,8 @@ Do not implement work simply because it exists in a future Level or Stage.
 
 The active boundary is defined by `docs/delivery/CURRENT.md`.
 
+Milestones and Tasks may be planned incrementally within an approved Stage and need not be predeclared in ROADMAP.
+
 ## 5. Core Domain Rule
 
 The CaseFlow core must remain centred on:
